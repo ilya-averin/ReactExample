@@ -32,9 +32,7 @@ class Content extends Component {
           <section className="onesection">
             <span className="onetext">
               <p><b>Hi, there</b></p>
-              <span className="bottominfo">
-              <h1>Join our newsletter.</h1>
-              </span>
+                <h1>Join our newsletter.</h1>
               <h3>Get notified the second
                 <br></br> we’re live 🤑</h3>
               <div className="kub">
