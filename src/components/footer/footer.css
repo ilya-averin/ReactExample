@@ -1,0 +1,8 @@
+
+footer {
+  display: flex;
+  flex: 0 0 auto;
+  padding: 1rem;
+  background: #e6ffe6;
+  left: 0; bottom: 0;
+}
