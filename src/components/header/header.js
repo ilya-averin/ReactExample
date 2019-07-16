@@ -3,14 +3,15 @@ import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
 
 import './header.css';
-import logo from '../../img/logo.png'
+
+import logo from '../../img/winners-logo.png';
 
 
 class Header extends Component {
   render() {
     return (
       <header className="menu">
-        <img className="logo" src={logo} width="75" height="75" alt=""></img>
+        <img className="logo" src={logo} width="129" height="23" alt=""></img>
         <nav>
           <ul className="menu-item">
             <li>

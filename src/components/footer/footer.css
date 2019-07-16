@@ -6,21 +6,27 @@
   background: #e6ffe6;
   left: 0; bottom: 0;
 } */
+*{
+  margin: 0;
+  padding: 0;
+}
 footer{
   /* position: relative;
   bottom: 0;
   left: 0; */
 
-  border-top: 1px solid #525252;
+  border-top: solid 1px #e7eaee;
   max-width: 1280px;
   margin: 0 auto;
+  text-align: center;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 .link{
   width: 100% / 3;
-  margin: 0 auto;
-  margin: 20px 0 20px 0;
-  text-transform: uppercase;
+  margin: 70px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #1a2249;
 }

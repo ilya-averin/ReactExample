@@ -2,10 +2,24 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'SFProText';
+}
+.logo{
+  object-fit: contain;
+  margin-left: 40px;
+  margin-top: 30px;
+}
+.menu-item{
+  margin-right: 40px;
+  margin-top: 32px;
+  font-size: 14px;
+  line-height: 1.64;
+  color: #1a2249;
 }
 a{
   text-decoration: none;
-  color: #525252;
+  color: #1a2249;
+  
 }
 
 .menu{
