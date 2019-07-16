@@ -58,15 +58,16 @@ h3{
   margin-bottom: 72px;
 }
 .img{
-  width: 1440px;
-  height: 1238px;
+  max-width: 1440px;
+  width: 100%;
+  height: 1260px;
   margin: 0 auto;
   background: url(../../img/screens.png) no-repeat center 0 / cover;
 }
-.imgwidth{
-  max-width: 100%;
+/* .imgwidth{
+  width: 100%;
   height: 100%;
-}
+} */
 .bottom-info {
   position: relative;
   margin-top: -17rem;
@@ -121,6 +122,7 @@ input[type="text"]{
   margin-top: 35px;
   /* font-size: .9em; */
 }
+
 input[type="text"]:hover{
   -webkit-box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.10);
   -moz-box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.10);
@@ -159,4 +161,95 @@ input[type="text"]:hover{
   width: 100% / 3;
   margin: 0 auto;
   margin: 20px 0 20px 0;
+}
+
+@media screen and (max-width: 1024px){
+  .img{
+    width: 1022px;
+    height: 879px;
+  }
+}
+@media screen and (max-width: 768px){
+  .img{
+    width: 768px;
+    height: 683px;
+  }
+  /* .imgwidth{
+    max-width: 100%;
+    height: 100%;
+  } */
+  .onetext{
+    margin-bottom: -8rem;
+  }
+  input[type="text"]{
+    width: 563px;
+    height: 103px;
+    margin-top: 0;
+    margin-left: 3.7rem;
+  }
+  .email{
+    margin-right: 18rem;
+    color: #7300ff;
+    font-weight: bolder;
+    margin-top: 29px;
+    margin-bottom: 5px;
+  }
+  .btn-bottom{
+    margin-top: -1rem;
+    margin-right: 23px;
+  }
+}
+@media screen and (max-width: 450px){
+  h1{
+    font-size: 30px;
+  }
+  h3{
+    font-size: 16px;
+    margin: 0 50px 0 50px;
+    margin-top: 20px;
+  }
+  .img{
+    width: 1022px;
+    height: 879px;
+  }
+  .btn-info{
+    width: 280px;
+    height: 53px;
+  }
+  .img{
+    max-width: 320px;
+    width: 100%;
+    height: 931px;
+    margin: 0 auto;
+    background: url(../../img/screens-mobile.png) no-repeat center 0 / cover;
+  }
+  .kub{
+    margin: 0 20px;
+    height: 71px;
+    width: 280;
+    background-color: #ffffff;
+    margin-bottom: 120px;
+    margin-top: 52px;
+    overflow: hidden;
+    border-radius: 4px;
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.06);
+    border: solid 1px #e7eaee;
+  }
+  /* input[type="text"]{
+    margin-left: 0 40px 0 40px;
+    width: 280px;
+    height: 71px;
+    opacity: 0.2;
+    border: 0;
+    outline: none;
+    background: transparent;
+    padding: 0;
+    margin-top: 40px;
+    margin-bottom: 10px;
+  }  */
+}
+@media screen and (max-width: 340px){
+  .kub{
+    margin: 0 20px;
+  }
 }
